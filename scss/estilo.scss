@@ -1,0 +1,40 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: century 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+body {
+  min-height: 100vh;
+  background: url(../img/arcoiris.jpg) no-repeat center center fixed;
+  background-size: cover;
+  font-family: 'roboto',  sans-serif;
+  
+}
+
+@import "./footer";
+@import "./aboutme";
+@import "./contacto";
+@import "./index";
+@import "./proyectos";
+@import "./skills";
+@import"./variables";
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

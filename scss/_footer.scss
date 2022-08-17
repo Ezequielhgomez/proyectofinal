@@ -1,0 +1,88 @@
+@import"./variables";
+
+.contenedorTransparente {
+    background: linear-gradient(-45deg, #EE7752, #E73c7e, #23A6D5 , #23D5AB , #DE9C21);
+    background-size: 400% 400%;
+    animation: degrade 10s ease-in-out infinite; 
+    background-attachment: fixed;
+    width: 100%;
+    height: 150px;
+    position: relative;
+}
+
+footer {
+    background: #3586ff;
+    width: 100%;
+    min-height: 100px;
+    padding-top: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    position: relative;
+
+    .redesFooter {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding-left: 0px;
+
+
+        li {
+            list-style: none;
+        }
+
+        a {
+            display: inline-block;
+        }
+    }
+
+    .menuFooter {
+        list-style: none;
+        display: flex;
+        justify-content: space-around;
+        flex-direction: column;
+        text-decoration: none;
+        margin: 3px 0;
+        padding-left: 0px;
+
+
+
+
+        a {
+            display: inline-block;
+            text-decoration: none;
+            color: white;
+            margin-bottom: 5px;
+            border-bottom: 1px solid white;
+            height: 20px;
+        }
+
+        a:hover {
+            opacity: 0.5;
+        }
+
+    }
+
+    .lni {
+        font-size: 35px;
+        color: white;
+        padding: 0 8px;
+    }
+
+    .lni:hover {
+
+        
+        filter: hue-rotate(360deg) drop-shadow(6px 2px 2px black);
+    }
+        
+
+
+    p {
+        font-size: 10px;
+        width: 200px;
+        color: white;
+        margin-top: 20px;
+
+    }
+}

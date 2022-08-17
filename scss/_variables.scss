@@ -1,0 +1,60 @@
+
+$backgroundPrimary: rgb(14, 14, 104);
+$paddingfooter:10px;
+$fondo-transparente: rgba(0, 0, 0, .5);
+$tamaño-fuente: 18px;
+$estilo-fuente: 'Rubik', sans-serif;
+$color-nombre: #5C62EC;
+$blanco: rgb(255, 255, 255);
+$gray:rgb(121, 121, 121);
+$black: rgb(0, 0, 0);
+$tamanos: 50px, 100px;
+
+$redes:(
+    twitter:rgb(33, 152, 168),
+    facebook:blue,
+    instagram:rgb(163, 18, 103),
+    mail: rgb(236, 236, 238),
+);
+
+$facebook: (
+background-color:blue,
+    color:$gray,
+    border-radius: 10px,
+    border: 2px solid $black
+);
+
+$mail: (
+background-color:rgb(255, 0, 0),
+    color:$gray,
+    border-radius: 10px,
+    border: 2px solid $black
+    
+);
+
+$twitter: (
+background-color:rgb(20, 232, 240),
+    color:$gray,
+    border-radius: 10px,
+    border: 2px solid $black
+);
+
+$instagram: (
+background-color:rgb(153, 0, 102),
+    color:$gray,
+    border-radius: 10px,
+    border: 2px solid $black
+);
+
+@mixin anchos($ancho, $alto) {
+    width: $ancho;
+    height: $alto;
+    
+    
+}
+
+@mixin crearBordes {
+    border-radius: 12px;
+    background-color: $fondo-transparente;
+    box-shadow: 0px 0px 5px white;
+}
